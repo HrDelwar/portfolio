@@ -1,0 +1,176 @@
+
+/*@media screen Start 1199px*/
+@media only screen and (max-width: 1400px){
+
+
+.review .owl-prev span{
+		left: 20px;
+}
+.review .owl-next span{
+	right: 20px;
+}
+}/*@media screen end 1400px*/
+
+/*@media screen Start 1199px*/
+@media only screen and (max-width: 1199px){
+.intro-text {
+	padding: 260px 0px 0 0;
+	width: 465px;
+}
+header .owl-theme .owl-nav.disabled + .owl-dots {
+	width:960px ;
+}
+.about{
+	padding: 100px 0;
+}
+.active-jobs-box .single-box.first{
+max-width: 214px;
+}
+.active-jobs-box .single-box{
+padding: 80px 0;
+}
+}/*@media screen End 1199px*/
+
+/*@media screen Start 991px*/
+@media only screen and (max-width: 991px){
+	.navbar-dark .container{
+		flex-flow: row-reverse;
+
+	}
+
+	.navbar {
+	padding: 22px 0 22px;
+	background: #03045ecc;
+	transition: all 1s ease-in-out;
+	z-index: 2;
+}
+#navbarSupportedContent {
+	position: absolute;
+	top: 0;
+	background: #2B2C74;
+	left: 0;
+	padding: 85px 0 0 32px;
+	bottom: 0;
+	z-index: -1;
+	transition: all .05s ease-in-out;
+	height: 100vh;
+	width: 200px;
+}
+.navbar-dark .navbar-nav .nav-item {
+	margin-right: 0px;
+	padding: 0 0 13px;
+}
+.intro-text-right {
+	justify-content: center;
+}
+.intro-text {
+	padding: 50px 0px 0 0;
+	width: 770px;
+	margin-right: auto;
+}
+.intro-img {
+	margin: 60px auto 0;
+	width: 80%;
+}
+header .owl-theme .owl-nav.disabled + .owl-dots {
+	width:770px ;
+}
+.about .about-img {
+	max-width: 698px;
+	margin: auto;
+}
+.about .about-text {
+	width: 770px;
+	margin: auto;
+	padding-top: 20px;
+}
+.about{
+	padding: 70px 0;
+}
+.skills-wraper {
+	margin-top: 0px;
+}
+.skills .skills-item{
+	margin: 64px 0 0 0;
+}
+.row.active-jobs-box.text-center {
+	margin-top: 60px;
+}
+.active-jobs-box .single-box.first{
+max-width: 244px;
+}
+.active-jobs-box .single-box{
+padding: 90px 0;
+}
+.review .review-person {
+	padding: 80px 40px 0 30px;
+}
+}/* @media screen End 991px*/
+
+
+/*@media screen Start 767px*/
+@media only screen and (max-width: 767px){
+.intro-text {
+	width: 540px;
+}
+header .owl-theme .owl-nav.disabled + .owl-dots {
+	width:540px ;
+}
+.about .about-text {
+	width: 540px;
+	margin: auto;
+}
+.latest-work .nav .nav-item {
+	margin-right: 10px;
+}
+.review .review-person {
+	margin: 50px auto 0;
+}
+.review span {
+	bottom: 0;
+}
+}/*@media screen End 767*/
+
+/*@media screen Start 575px*/
+@media only screen and (max-width: 575px){
+ .navbar-dark .container{
+  	padding: 0 15px;
+  }
+  #navbarSupportedContent {
+	padding: 85px 0 0 15px;
+	width: 152px;
+}
+.intro-img {
+	margin: 40px auto 0;
+	width: 100%;
+}
+.about .about-text {
+	width: 100%;
+	margin: auto;
+}
+.about{
+	padding: 40px 0;
+}
+.latest-work .nav.mx-auto {
+	flex-direction: column;
+	align-items: center;
+}
+.latest-work .nav .nav-item {
+	margin-right: 0;
+	margin-bottom: 13px;
+}
+.latest-work .nav .nav-item:last-child{
+	margin-bottom: 0px;
+}
+.review .review-person {
+	margin: 40px auto 0;
+	padding: 42px 15px 0 16px;
+}
+.review .owl-prev span {
+	left: 15px;
+}
+.review .owl-next span {
+	right: 15px;
+}
+
+}/*@media screen End 575px */
